@@ -1,10 +1,13 @@
 /**
 * This class includes the declaration and implementation of the sleepIn method,
 * as well as the unit testing for the method.
+*
+* @author NicholasRaynes
+* @version 0.0.2
 */
 public SleepIn
 {
-  	public static void main(String[] args) 
+	public static void main(String[] args) 
   	{
 		// Testing all possible outcomes of the sleepIn method.
     		System.out.printf("Expected: true\nActual: %s\n", sleepIn(false, false));
