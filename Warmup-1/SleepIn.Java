@@ -5,7 +5,7 @@
 * @author NicholasRaynes
 * @version 0.0.2
 */
-public SleepIn
+public class SleepIn
 {
 	public static void main(String[] args) 
   	{
