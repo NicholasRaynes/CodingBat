@@ -10,16 +10,16 @@ public class SleepIn
 	public static void main(String[] args) 
   	{
 		// Testing all possible outcomes of the sleepIn method.
-		System.out.println("Test #1 - It is isn't a weekday, isn't a vacation day.\n");
+		System.out.println("Test #1 - It is isn't a weekday, isn't a vacation day.");
     		System.out.printf("Expected: true\nActual: %s\n", sleepIn(false, false));
 		
-		System.out.println("Test #2 - It is a weekday, isn't a vacation day.\n");
+		System.out.println("\nTest #2 - It is a weekday, isn't a vacation day.");
     		System.out.printf("Expected: false\nActual: %s\n", sleepIn(true, false));
 		
-		System.out.println("Test #3 - It is isn't a weekday, it is a vacation day.\n");
+		System.out.println("\nTest #3 - It is isn't a weekday, it is a vacation day.");
     		System.out.printf("Expected: true\nActual: %s\n", sleepIn(false, true));
 		
-		System.out.println("Test #4 - It is a weekday, It is a vacation day\n");
+		System.out.println("\nTest #4 - It is a weekday, It is a vacation day.");
     		System.out.printf("Expected: true\nActual: %s\n", sleepIn(true, true));
   	}
   	
