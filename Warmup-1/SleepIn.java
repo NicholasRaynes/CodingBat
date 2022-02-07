@@ -31,6 +31,7 @@ public class SleepIn
   	*
   	* @param weekday Whether or not it is a weekday.
   	* @param vacation Whether or not it is a vacation day.
+	* @return Whether or not you should sleep in.
   	*/
   	public static boolean sleepIn(boolean weekday, boolean vacation) 
   	{
