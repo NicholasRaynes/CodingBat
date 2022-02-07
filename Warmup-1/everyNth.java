@@ -1,11 +1,14 @@
-public String everyNth(String str, int n) 
+public class everyNth
 {
-  String result = "";
-  
-  for(int i = 0; i < str.length(); i = i + n)
+  public String everyNth(String str, int n) 
   {
-    result += str.charAt(i);
-  }
+    String result = "";
   
-  return result;
+    for(int i = 0; i < str.length(); i = i + n)
+    {
+      result += str.charAt(i);
+    }
+  
+    return result;
+  }
 }
