@@ -6,7 +6,7 @@
 * @version 0.0.1
 * @see https://codingbat.com/prob/p196441
 */
-public class everyNth
+public class EveryNth
 {
   /**
   * Given a non-empty string and an int N, return the string made starting with char 0, 
