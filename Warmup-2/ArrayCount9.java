@@ -13,6 +13,5 @@ public class ArrayCount9
       }
   
       return count;
-     }
   }
 }
