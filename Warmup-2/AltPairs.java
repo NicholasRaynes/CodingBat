@@ -1,5 +1,12 @@
 public class AltPairs
 {
+  public static void main(String[] args)
+  {
+    // Testing
+    System.out.printf("Test #1 - altPairs('kitten')\nOutput:%s\n", altPairs("kitten"));
+    System.out.printf("Test #2 - altPairs('Chocolate')\nOutput:%s\n", altPairs("Chocolate"));
+    System.out.printf("Test #3 - altPairs('CodingHorror')\nOutput:%s\n", altPairs("CodingHorror"));
+  }
   public String altPairs(String str) 
   {
     String output = "";
