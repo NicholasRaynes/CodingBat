@@ -23,7 +23,7 @@ public class AltPairs
   * @param str The string to be scanned through.
   * @return output A string made up of the characters at the specified indexes.
   */
-  public String altPairs(String str) 
+  public static String altPairs(String str) 
   {
     String output = "";
   
