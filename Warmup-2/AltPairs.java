@@ -1,3 +1,12 @@
+/**
+* This class includes the declaration, implementation, and testing for
+* the altPairs method.
+*
+* @author NicholasRaynes
+* @version 0.0.1
+* @see https://codingbat.com/prob/p121596
+*/
+
 public class AltPairs
 {
   public static void main(String[] args)
@@ -7,6 +16,13 @@ public class AltPairs
     System.out.printf("Test #2 - altPairs('Chocolate')\nOutput:%s\n", altPairs("Chocolate"));
     System.out.printf("Test #3 - altPairs('CodingHorror')\nOutput:%s\n", altPairs("CodingHorror"));
   }
+  
+  /**
+  * Given a string, return a string made of the chars at indexes 0, 1, 4, 5, 8, 9...
+  *
+  * @param str The string to be scanned through.
+  * @return output A string made up of the characters at the specified indexes.
+  */
   public String altPairs(String str) 
   {
     String output = "";
