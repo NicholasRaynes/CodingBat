@@ -1,2 +1,2 @@
 # CodingBat_Java
-Practice coding CodingBat problems using Java.
+Practice ompleting CodingBat challenges in Java.
