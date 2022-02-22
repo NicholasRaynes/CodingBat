@@ -6,7 +6,6 @@
 * @version 0.0.1
 * @see https://codingbat.com/prob/p121596
 */
-
 public class AltPairs
 {
   public static void main(String[] args)
