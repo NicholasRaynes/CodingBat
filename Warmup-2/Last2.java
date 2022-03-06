@@ -8,6 +8,13 @@ public class Last2
         System.out.printf("Test #3 - last2('axxxaaxx')\nOutput: %d\n", last2("axxxaaxx"));
     }
     
+    /**
+    * This method is given a string, return the count of the number of times that a substring of length 2 appears 
+    * in the string and also as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
+    *
+    * @param input The string to be scanned through.
+    * @return counter The number of times that a substring of length 2 appears.
+    */
     public static int last2(String input) 
     {
         if (input.length() < 2) 
