@@ -13,9 +13,9 @@ public class Last2
   
         for (int i = 0; i < input.length() - 2; i++) 
         {
-            String sub = input.substring(i, i + 2);
+            String group = input.substring(i, i + 2);
         
-            if (sub.equals(end)) 
+            if (group.equals(end)) 
             {  
                 counter++;
             }
