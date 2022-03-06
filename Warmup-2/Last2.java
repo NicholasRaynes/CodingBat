@@ -1,3 +1,11 @@
+/**
+* This class includes the declaration, implementation, and testing for
+* the last2 method.
+*
+* @author NicholasRaynes
+* @version 0.0.1
+* @see https://codingbat.com/prob/p178318
+*/
 public class Last2
 {
     public static void main(String[] args)
