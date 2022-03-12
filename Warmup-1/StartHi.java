@@ -1,6 +1,6 @@
 public class StartHi
 {
-  public boolean startHi(String input) 
+  public static boolean startHi(String input) 
   {
     if (input.length() < 2) 
     {
@@ -9,7 +9,6 @@ public class StartHi
   
     String firstTwo = input.substring(0, 2);
   
- 
     if (firstTwo.equals("hi")) 
     {
         return true;
