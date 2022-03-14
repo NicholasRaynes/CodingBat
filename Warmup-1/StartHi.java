@@ -13,6 +13,12 @@ public class StartHi
     System.out.printf("Output: %b\n", startHi("hello hi"));
   }
   
+  /**
+  * Given a string, this method returns true if the string starts with "hi" and false otherwise.
+  *
+  * @param input The provided string to be evaluated.
+  * @return Whether or not the provided string starts with "hi".
+  */
   public static boolean startHi(String input) 
   {
     if (input.length() < 2) 
