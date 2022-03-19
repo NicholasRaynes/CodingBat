@@ -9,6 +9,8 @@ public class ExtraEnd
       lastTwo = str.substring(str.length() - 2);
     }
   
+    lastTwo.toLowerCase();
+    
     return lastTwo + lastTwo + lastTwo;
   }
 }
