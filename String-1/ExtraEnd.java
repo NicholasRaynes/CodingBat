@@ -13,6 +13,13 @@ public class ExtraEnd
     System.out.printf("Output: %s\n", extraEnd("Test"));
   }
   
+  /**
+    * This method is given a string, and returns a new string made of 3 copies of the last 2 
+    * chars of the original string. The string length will be at least 2.
+    *
+    * @param str The provided string.
+    * @return A new string made of three copies of the last two chars, of the provided string.
+    */
   public static String extraEnd(String str) 
   {
     String lastTwo = "";
