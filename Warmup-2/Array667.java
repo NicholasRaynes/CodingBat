@@ -1,6 +1,6 @@
 public class Array667
 {
-     public static void main(String[] args)
+    public static void main(String[] args)
     {
         int[] test1 = {6, 6, 2};
         int[] test2 = {6, 6, 2, 6};
