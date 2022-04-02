@@ -12,6 +12,13 @@ public class Array667
         System.out.printf("Test #3 - array667[6, 7, 2, 6]\nOutput:%d\n", array667(test3));
     }
     
+    /**
+    * Given an array of ints, this method returns the number of times that two 6's are next to each other in the array. 
+    * Also count instances where the second "6" is actually a 7.
+    *
+    * @param nums The provided array of integers.
+    * @return count The number of instances where the second "6" is actually a 7.
+    */
     public static int array667(int[] nums) 
     {
         int count = 0;
