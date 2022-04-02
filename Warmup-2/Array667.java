@@ -1,3 +1,11 @@
+/**
+* This class includes the declaration, implementation, and testing for
+* the array667 method.
+*
+* @author NicholasRaynes
+* @version 0.0.1
+* @see https://codingbat.com/prob/p110019
+*/
 public class Array667
 {
     public static void main(String[] args)
