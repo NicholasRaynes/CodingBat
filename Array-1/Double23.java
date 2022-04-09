@@ -1,3 +1,11 @@
+/**
+* This class includes the declaration, implementation, and testing for
+* the double23 method.
+*
+* @author NicholasRaynes
+* @version 0.0.1
+* @see https://codingbat.com/prob/p145365
+*/
 public class Double23
 {
    public static void main(String[] args)
