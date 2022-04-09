@@ -11,6 +11,13 @@ public class Double23
      System.out.printf("Test #3 - double23([2, 3])\nOutput:%b\n", double23(test3));
    }
   
+   /**
+   * Given an int array, this method returns true if the array contains 2 twice, or 3 twice. 
+   * The array will be length 0, 1, or 2.
+   *
+   * @param nums The array to be searched through.
+   * @return Whether or not the array contains 2 twice, or 3 twice.
+   */
    public static boolean double23(int[] nums) 
    {
       if (nums.length != 1 && nums.length != 0 )
