@@ -13,6 +13,13 @@ public class HelloWorld
         System.out.printf("Output: %s\n", middleTwo("Practice"));
     }
     
+    /**
+    * Given a string of even length, this method returns a string made of the middle two chars.
+    * The string length will be at least 2.
+    *
+    * @param str The provided string.
+    * @return A new string consisting of the middle two characters.
+    */
     public static String middleTwo(String str) 
     {
         int half = str.length() / 2;
