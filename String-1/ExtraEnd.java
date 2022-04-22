@@ -3,7 +3,7 @@
 * the extraEnd method.
 *
 * @author NicholasRaynes
-* @version 0.0.1
+* @version 0.0.2
 * @see https://codingbat.com/prob/p108853
 */
 public class ExtraEnd
