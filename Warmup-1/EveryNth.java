@@ -3,7 +3,7 @@
 * for the everyNth method.
 *
 * @author NicholasRaynes
-* @version 0.0.1
+* @version 0.0.2
 * @see https://codingbat.com/prob/p196441
 */
 public class EveryNth
