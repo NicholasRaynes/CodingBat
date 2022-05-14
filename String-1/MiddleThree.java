@@ -21,6 +21,13 @@ public class MiddleThree
         System.out.printf("Output: %s\n", middleThree("solving"));
     }
     
+    /**
+    * Given a string of odd length, this method returns the string length three from its middle.
+    * (The string length will be at least three.)
+    *
+    * @param str The provided string.
+    * @return A new string made length three from the middle.
+    */
     public static String middleThree(String str)
     {
         int len = str.length() / 2;
