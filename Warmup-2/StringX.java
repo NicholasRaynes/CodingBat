@@ -1,5 +1,13 @@
 public class StringX
 {
+    public static void main(String[] args)
+    {
+        // Testing
+        System.out.printf("Test #1 - stringX('xxHxix')\nOutput:%s\n", stringX("xxHxix"));
+        System.out.printf("Test #2 - stringX('abxxxcd')\nOutput:%s\n", stringX("abxxxcd"));
+        System.out.printf("Test #3 - stringX('xabxxxcdx')\nOutput:%s\n", stringX("xabxxxcdx"));
+    }
+    
     public static String stringX(String str) 
     {
         String result = "";
